@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var x: UITextField!
+   /** @IBOutlet weak var x: UITextField!
     
-    @IBOutlet weak var y: UITextField!
+   @IBOutlet weak var y: UITextField!
     
     
     @IBOutlet weak var z: UITextField!
@@ -21,6 +21,24 @@ class ViewController: UIViewController {
         var temp:Int
         temp=Int(x.text!)! + Int(y.text!)!
         z.text=("\(temp)")
+        
+     */
+    
+    
+    @IBOutlet weak var list: UITextField!
+    
+    @IBOutlet weak var answer: UITextField!
+    
+    
+    @IBAction func a1(_ sender: Any) {
+        _=1;
+        list=
+        
+        
+        
+        
+    }
+    
     }
     
     override func viewDidLoad() {
